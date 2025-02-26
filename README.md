@@ -1,10 +1,43 @@
+<<<<<<< HEAD
+# LearningShadcn
+=======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up and run the project locally.
 
-```bash
+### Prerequisites
+
+- **Node.js** (v16 or higher recommended)
+- A package manager: `npm`, `yarn`, `pnpm`, or `bun`
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+   ```
+
+2. Install dependencies:
+
+```node
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+3. Running the Development Server:
+
+Start the Next.js development server:
+
+```node
 npm run dev
 # or
 yarn dev
@@ -14,15 +47,33 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action. The page will auto-update as you make changes to the code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Editing the App
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Modify app/page.tsx to edit the homepage.
+Changes are reflected in real-time thanks to Next.js's hot reloading.
+Mock API Setup
+
+This project includes a mock API powered by json-server. To run it:
+
+1 Install json-server globally (if not already installed):
+
+```node
+npm i -g json-server
+```
+
+2 Start the mock API server:
+
+```node
+json-server --watch ./_data/b.json --port 4000
+```
+
+The API will be available at [http://localhost:4000](http://localhost:4000).
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Explore these resources to deepen your understanding of Next.js:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
@@ -34,3 +85,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+>>>>>>> 37403fa (Initial commit from Create Next App)
