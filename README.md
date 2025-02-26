@@ -1,6 +1,10 @@
-<<<<<<< HEAD
 # LearningShadcn
-=======
+
+## Badges
+
+[![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-%23121011.svg?style=for-the-badge&logo=react&logoColor=white)](https://ui.shadcn.com)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -23,29 +27,29 @@ Follow these steps to set up and run the project locally.
 
 2. Install dependencies:
 
-```node
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
+   ```node
+      npm install
+      # or
+      yarn install
+      # or
+      pnpm install
+      # or
+      bun install
+   ```
 
 3. Running the Development Server:
 
 Start the Next.js development server:
 
-```node
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```node
+      npm run dev
+      # or
+      yarn dev
+      # or
+      pnpm dev
+      # or
+      bun dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action. The page will auto-update as you make changes to the code.
 
@@ -85,4 +89,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 37403fa (Initial commit from Create Next App)
